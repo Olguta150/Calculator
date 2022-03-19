@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div id="calc-container">
+        <div class="display">
+            <div class="previous-operand"></div>
+            <div class="current-operand"></div>
+        </div>
+        <div class="tastes">
+            <button class="tst all-clear" onclick="this.blur();">AC</button>
+            <button class="tst clear" onclick="this.blur();">C</button>
+            <button class="tst operator" onclick="this.blur();">%</button>
+            <button class="tst operator" onclick="this.blur();">÷</button>
+
+            <button class="tst number" onclick="this.blur();">7</button>
+            <button class="tst number" onclick="this.blur();">8</button>
+            <button class="tst number" onclick="this.blur();">9</button>
+            <button class="tst operator" onclick="this.blur();">+</button>
+
+            <button class="tst number" onclick="this.blur();">4</button>
+            <button class="tst number" onclick="this.blur();">5</button>
+            <button class="tst number" onclick="this.blur();">6</button>
+            <button class="tst operator" onclick="this.blur();">-</button>
+
+            <button class="tst number" onclick="this.blur();">1</button>
+            <button class="tst number" onclick="this.blur();">2</button>
+            <button class="tst number" onclick="this.blur();">3</button>
+            <button class="tst operator" onclick="this.blur();">&times;</button>
+
+            <button class="tst number" onclick="this.blur();">0</button>
+            <button class="tst pointBtn" onclick="this.blur();">.</button>
+            <button class="tst result equal" onclick="this.blur();">=</button>
+        </div>
+    </div>
+        
+
 </body>
 </html>
